@@ -1,0 +1,198 @@
+/* line 1, ../../../Documents/CODERHOUSE/clase12/scss/_header.scss */
+header {
+  min-height: 120px;
+}
+
+/* line 5, ../../../Documents/CODERHOUSE/clase12/scss/_header.scss */
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+nav{
+    border-bottom: 1px solid black;
+}
+/* line 11, ../../../Documents/CODERHOUSE/clase12/scss/_header.scss */
+ul.listaHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: .2em;
+}
+
+/* line 17, ../../../Documents/CODERHOUSE/clase12/scss/_header.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* line 20, ../../../Documents/CODERHOUSE/clase12/scss/_header.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 24, ../../../Documents/CODERHOUSE/clase12/scss/_header.scss */
+li a:hover {
+  transition: 1ms;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 1, ../../../Documents/CODERHOUSE/clase12/scss/_main.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(#8fcbfcd4, white);
+}
+
+/* line 12, ../../../Documents/CODERHOUSE/clase12/scss/_main.scss */
+.subtitulo {
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 15, ../../../Documents/CODERHOUSE/clase12/scss/_main.scss */
+.card-body {
+  height: 170px;
+}
+
+/* line 18, ../../../Documents/CODERHOUSE/clase12/scss/_main.scss */
+.card-title {
+  font-weight: 600;
+  margin: .5rem;
+}
+
+/* line 22, ../../../Documents/CODERHOUSE/clase12/scss/_main.scss */
+.card-text {
+  font-weight: 400;
+  margin: .5rem;
+  padding-bottom: 1rem;
+}
+
+/* line 1, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+#grilla {
+  height: 100%;
+  width: 100vh;
+  display: grid;
+  grid-template-areas: "produno proddos prodtres"
+ "prodcuatro prodcinco prodseis"
+ "titulo titulo ."
+ "tabla tabla .";
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 100px 100px 100px 120px;
+  margin-left: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+/* line 16, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.productoUno {
+  grid-area: produno;
+}
+
+/* line 19, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.productoDos {
+  grid-area: proddos;
+}
+
+/* line 22, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.productoTres {
+  grid-area: prodtres;
+}
+
+/* line 25, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.productoCuatro {
+  grid-area: prodcuatro;
+}
+
+/* line 28, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.productoCinco {
+  grid-area: prodcinco;
+}
+
+/* line 31, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.productoSeis {
+  grid-area: prodseis;
+}
+
+/* line 34, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.tablaTalles {
+  grid-area: titulo;
+  justify-items: start;
+  margin-left: 10px;
+}
+
+/* line 39, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+.tabla {
+  grid-area: tabla;
+  border: solid black 2px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* line 45, ../../../Documents/CODERHOUSE/clase12/scss/_grilla.scss */
+th {
+  color: #03a9f4;
+}
+
+/* line 1, ../../../Documents/CODERHOUSE/clase12/scss/_footer.scss */
+.footer {
+  height: 120px;
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(#8fcbfcd4, #c8ecfcab);
+}
+
+/* line 1, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+.container {
+  margin-left: 0;
+}
+
+/* line 4, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+.row {
+  flex-wrap: nowrap;
+}
+
+/* line 11, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+.info {
+  font-weight: 600;
+  margin: .5rem;
+}
+
+/* line 18, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+.contenido {
+  font-weight: 400;
+  margin: .5rem;
+}
+
+/* line 21, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+.formulario {
+  margin: auto;
+  padding: 10px;
+  background-color: #8fcbfcd4;
+  width: 30%;
+  border: solid black 1px;
+}
+
+/* line 28, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+.infoForm {
+  width: 100px;
+  transition: all 1s;
+}
+
+/* line 32, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+#nombre:focus {
+  width: 200px;
+}
+
+/* line 35, ../../../Documents/CODERHOUSE/clase12/scss/_contacto.scss */
+#email:focus {
+  width: 200px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
