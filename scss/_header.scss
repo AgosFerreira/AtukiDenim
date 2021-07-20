@@ -1,30 +1,39 @@
 header{
 	border-bottom: 1px solid black;
-	min-height: 120px;
 }
 h1{
-	text-align: center;
-	font-weight: bold;
-	font-size: 55px;
-	margin-bottom: 1rem;
-	margin-top: .5rem;
+  text-align: center;
+  font-weight: bold;
 }
-ul.listaHeader{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin-bottom: .5em;
+.fa-1x {
+	font-size: 1.5rem;
 }
-ul li{
-	list-style-type: none;
+button.navbar-toggler.toggler-example {
+	cursor: pointer;
 }
-a{
-	text-decoration: none;
-	color: black;
+.navbar-toggler-icon{
+	background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger7.svg?color=BFE100');
 }
-li a:hover{
-	transition: 1ms;
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
+@media(min-width: 576px){
+	.navbar-brand{
+		text-align: center;
+		font-weight: bold;
+		font-size: 40px;
+	}
+	ul.navbar-nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: .5em;
+	}
+	ul li{
+		list-style-type: none;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+}
+@media(min-width: 992px){
+	
 }
